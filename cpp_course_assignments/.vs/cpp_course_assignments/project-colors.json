@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7900e11a-5a10-4ff5-96f9-56ea64991c6c": {
+      "ProjectGuid": "7900e11a-5a10-4ff5-96f9-56ea64991c6c",
+      "DisplayName": "absolute_difference",
+      "ColorIndex": 0
+    },
+    "293dd512-0651-4d82-8410-8d6e40de8a99": {
+      "ProjectGuid": "293dd512-0651-4d82-8410-8d6e40de8a99",
+      "DisplayName": "celsius_to_fahrenheit",
+      "ColorIndex": 1
+    },
+    "cc6342d1-8425-43b2-a48b-2e76c61ce177": {
+      "ProjectGuid": "cc6342d1-8425-43b2-a48b-2e76c61ce177",
+      "DisplayName": "last_digit_of_number",
+      "ColorIndex": 2
+    },
+    "4fa51861-3416-4e6d-9c1a-3783c032832a": {
+      "ProjectGuid": "4fa51861-3416-4e6d-9c1a-3783c032832a",
+      "DisplayName": "swap",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
