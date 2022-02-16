@@ -30,7 +30,12 @@
       "ProjectGuid": "8f4cdcaa-9854-4aca-9315-93db6b577e4f",
       "DisplayName": "reverse_collection",
       "ColorIndex": 5
+    },
+    "efd6a52d-ed1d-40ac-9293-41c7587f8109": {
+      "ProjectGuid": "efd6a52d-ed1d-40ac-9293-41c7587f8109",
+      "DisplayName": "linear_search",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 7
 }
