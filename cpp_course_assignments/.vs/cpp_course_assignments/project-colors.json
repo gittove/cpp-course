@@ -35,7 +35,22 @@
       "ProjectGuid": "efd6a52d-ed1d-40ac-9293-41c7587f8109",
       "DisplayName": "linear_search",
       "ColorIndex": 6
+    },
+    "719d61ae-3401-4f61-ab1c-28bb9e2f93c1": {
+      "ProjectGuid": "719d61ae-3401-4f61-ab1c-28bb9e2f93c1",
+      "DisplayName": "nth_bit_of_a_number",
+      "ColorIndex": 7
+    },
+    "b035634a-fafa-442a-b7c7-44b2611e0af8": {
+      "ProjectGuid": "b035634a-fafa-442a-b7c7-44b2611e0af8",
+      "DisplayName": "swap_bitwise",
+      "ColorIndex": 8
+    },
+    "d6118f33-06f0-4bd1-90cd-aea40f4e0467": {
+      "ProjectGuid": "d6118f33-06f0-4bd1-90cd-aea40f4e0467",
+      "DisplayName": "min_max_sum_avg",
+      "ColorIndex": 9
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 10
 }

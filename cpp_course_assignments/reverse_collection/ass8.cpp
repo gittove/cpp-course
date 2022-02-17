@@ -11,22 +11,33 @@ void swap_char(char* a, char* b)
 	*b = temp;
 }
 
-std::string reverse_string(std::string* container)
+void reverse_string(std::string* container, int length)
 {
-	size_t n = container->length();
-
-	for (int i = 0; i < n / 2; i++)
+	for (int i = 0; i < length / 2; i++)
 	{
-		swap_char(&container->at(i), &container->at(n - i - 1));
+		swap_char(&container->at(i), &container->at(length - i - 1));
+	}
+}
+
+int get_length(std::string arr)
+{
+	int n{};
+
+	for(char ch : arr)
+	{
+		++n;
 	}
 
-	return *container;
+	return n;
 }
+
 
 
 int main()
 {
-	reverse_string(&hello);
+	std::string* ptr = &hello;
+	int length = get_length (hello);
+	reverse_string(ptr, length);
 
 	std::cout << "Reversed string: " << hello << std::endl;
 	return 0;
