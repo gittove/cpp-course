@@ -50,7 +50,12 @@
       "ProjectGuid": "d6118f33-06f0-4bd1-90cd-aea40f4e0467",
       "DisplayName": "min_max_sum_avg",
       "ColorIndex": 9
+    },
+    "9b64ba6c-be37-43d3-9053-681e6d44d01b": {
+      "ProjectGuid": "9b64ba6c-be37-43d3-9053-681e6d44d01b",
+      "DisplayName": "vector",
+      "ColorIndex": 10
     }
   },
-  "NextColorIndex": 10
+  "NextColorIndex": 11
 }
