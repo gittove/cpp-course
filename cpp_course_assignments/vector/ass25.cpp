@@ -9,18 +9,18 @@ void print_size(tVector<T>* arr)
 template<typename T>
 void print_arr(tVector<T>* arr)
 {
-	
+	std::string outputstring = " ";
+
 	for (int i = 0; i < *arr->get_size(); i++)
 	{
-		if (i == *arr->get_size()-1)
-		{
-			cout <<(*arr)[i] << ".";
-			break;
-		}
-		cout << (*arr)[i] << ", ";
+		outputstring += " ";
+		outputstring += to_string((*arr)[i]);
+		outputstring += ",";
 	}
-	
-	cout << endl;
+
+	outputstring[outputstring.length () - 1] = '.';
+
+	cout << outputstring << endl;
 }
 
 int main()

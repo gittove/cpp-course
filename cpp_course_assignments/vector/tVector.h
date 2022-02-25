@@ -21,9 +21,6 @@ template <typename T> struct tVector
 	{
 		if (i >= count)
 		{
-			// Maybe throw error instead?
-			// Or change the return type to pointer instead of reference and return nullptr.
-			// But I want the value directly when you do myArr[0], and not the adress
 			return *data;
 		}
 		return *(data + i);
@@ -31,20 +28,11 @@ template <typename T> struct tVector
 
 	template <typename T> void custom_add (T add)
 	{
-		// if size == capacity
-		// increase capacity
 		if (count == capacity)
 		{
 			set_capacity (capacity + 1);
-
-			// when increasing capacity; should i use the move semantics magic to move the vector
-			// to a space in memory where the entire vector fits?
 		}
 
-		// add element to adjacent adress to end
-				// but then, is there a possibility that the adjacent adress is occupied?
-				// the entire array should be copied to a new memory space on the stack, maybe?
-		// then increase size
 		data[count] = add;
 		count++;
 	}
@@ -74,7 +62,7 @@ template <typename T> struct tVector
 				break;
 			}
 
-			if (i == count-1 && data[i] != value)
+			if (i == count - 1 && data[i] != value)
 			{
 				std::cout << "Value was not found inside the vector." << std::endl;
 			}
