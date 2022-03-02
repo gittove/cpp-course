@@ -1,4 +1,8 @@
 #include "ass25.h"
+#include <string>
+#include <iostream>
+
+using namespace std;
 
 template<typename T>
 void print_size(tVector<T>* arr)
@@ -9,12 +13,12 @@ void print_size(tVector<T>* arr)
 template<typename T>
 void print_arr(tVector<T>* arr)
 {
-	std::string outputstring = " ";
+	string outputstring = " ";
 
 	for (int i = 0; i < (*arr).get_size(); i++)
 	{
 		outputstring += " ";
-		outputstring += to_string((*arr)[i]);
+		outputstring += (*arr)[i];
 		outputstring += ",";
 	}
 
@@ -25,7 +29,17 @@ void print_arr(tVector<T>* arr)
 
 int main()
 {
-	tVector<int> someVector;
+	tVector<string> someVector;
+	someVector.custom_add ("Hello ");
+	someVector.custom_add ("Even more hello yes hi i am long");
+	someVector.custom_add ("aaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+	print_arr (&someVector);
+
+	tVector<string> anotherVector{ someVector };
+	cout << anotherVector[10];
+	print_arr (&anotherVector);
+
+	/*tVector<int> someVector;
 	someVector.custom_add (5);
 	print_size (&someVector);
 	someVector.custom_add (10);
@@ -39,6 +53,6 @@ int main()
 	anotherVector.custom_remove (10);
 	print_arr (&anotherVector);
 	anotherVector.custom_remove (15);
-	print_arr (&anotherVector);
+	print_arr (&anotherVector);*/
 	return 0;
 }

@@ -1,8 +1,5 @@
 #pragma once
-#include <iostream>
-#include<string>
 #include "tVector.h"
-using namespace std;
 
 template<typename T>
 void print_size (tVector<T>* arr);

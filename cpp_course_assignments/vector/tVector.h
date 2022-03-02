@@ -18,18 +18,12 @@ template <typename T> struct tVector
 			delete[] data;
 		}
 		data = new T[capacity];
-		memcpy (data, other.data, capacity * sizeof (T));
 
-		cout << "inside copy constructor" << endl;
+		for (int i = 0; i < capacity; ++i)
+		{
+			data[i] = other.data[i];
+		}
 	}
-
-	/*tVector(tVector&& other) : count (other.count), data (other.data)
-	{
-		set_capacity (other.capacity);
-		other.data = nullptr;
-
-		cout << "inside move constructor" << endl;
-	}*/
 
 	tVector& operator=(const tVector& other)
 	{
@@ -43,19 +37,6 @@ template <typename T> struct tVector
 		return *this;
 	}
 
-	/*tVector& operator=(tVector&& other)
-	{
-		if (&other != this)
-		{
-			delete data;
-			data = other.data;
-			other.data = nullptr;
-		}
-
-		cout << "inside move assignment operator" << endl;
-		return *this;
-	}*/
-
 	~tVector ()
 	{
 		delete[] data;
@@ -63,6 +44,18 @@ template <typename T> struct tVector
 
 	T& operator[](int i)
 	{
+		if (i < 0 || i > count)
+		{
+			try
+			{
+				throw out_of_range ("Index was out of bounds of the vector, bro :(");
+			}
+			catch (const out_of_range& error)
+			{
+				cout << "Out of range exception:" << error.what () << endl;
+			}
+		}
+
 		return *(data + i);
 	}
 
@@ -70,7 +63,6 @@ template <typename T> struct tVector
 	{
 		if (count == capacity)
 		{
-			std::cout << "Increasing capacity..." << std::endl;
 			set_capacity (capacity + 5);
 		}
 
@@ -84,7 +76,11 @@ template <typename T> struct tVector
 		data = new T[new_capacity];
 		if (old_data)
 		{
-			memcpy (data, old_data, capacity * sizeof (T));
+			for(int i = 0; i < capacity; ++i)
+			{
+				data[i] = old_data[i];
+			}
+			
 			delete[] old_data;
 		}
 
