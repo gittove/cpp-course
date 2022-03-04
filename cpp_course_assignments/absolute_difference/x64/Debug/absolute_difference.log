@@ -1,2 +1,3 @@
-﻿  ass1.cpp
-  absolute_difference.vcxproj -> C:\Users\tove.backenroth\OneDrive - Change Maker Education\Gitfork\cpp-course\cpp_course_assignments\x64\Debug\absolute_difference.exe
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(510,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (absolute_difference.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  ass1.cpp
+  absolute_difference.vcxproj -> C:\Users\tove.backenroth\OneDrive - Change Maker Education\Gitfork\cpp-course\cpp_course_assignments\x64\Debug\absolute_difference_easy.exe

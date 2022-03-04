@@ -1,5 +1,4 @@
 #include <iostream>
-#include <vector>
 #include "ass7.h"
 
 using namespace std;
@@ -42,7 +41,7 @@ bool arithmetic_check(vector<int>* values)
 
 int main()
 {
-	vector<int> numbers{ 2, 4, 6, 8 };
+	vector<int> numbers{ 2, 4, 6, 9 };
 	bool is_arithmetic = arithmetic_check(&numbers);
 
 	if (is_arithmetic)

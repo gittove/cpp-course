@@ -24,6 +24,7 @@
     <ProjectGuid>{2d47594b-3e69-492a-ab24-3458ba8d4a75}</ProjectGuid>
     <RootNamespace>arithmeticprogression</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>arithmetic_progression_easy</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

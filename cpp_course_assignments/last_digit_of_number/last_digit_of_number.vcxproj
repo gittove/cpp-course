@@ -24,6 +24,7 @@
     <ProjectGuid>{cc6342d1-8425-43b2-a48b-2e76c61ce177}</ProjectGuid>
     <RootNamespace>lastdigitofnumber</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>last_digit_of_number_easy</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

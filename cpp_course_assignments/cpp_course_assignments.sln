@@ -3,27 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31808.319
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "absolute_difference", "absolute_difference\absolute_difference.vcxproj", "{7900E11A-5A10-4FF5-96F9-56EA64991C6C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "absolute_difference_easy", "absolute_difference\absolute_difference.vcxproj", "{7900E11A-5A10-4FF5-96F9-56EA64991C6C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "celsius_to_fahrenheit", "celsius_to_fahrenheit\celsius_to_fahrenheit.vcxproj", "{293DD512-0651-4D82-8410-8D6E40DE8A99}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "celsius_to_fahrenheit_easy", "celsius_to_fahrenheit\celsius_to_fahrenheit.vcxproj", "{293DD512-0651-4D82-8410-8D6E40DE8A99}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "last_digit_of_number", "last_digit_of_number\last_digit_of_number.vcxproj", "{CC6342D1-8425-43B2-A48B-2E76C61CE177}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "last_digit_of_number_easy", "last_digit_of_number\last_digit_of_number.vcxproj", "{CC6342D1-8425-43B2-A48B-2E76C61CE177}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "swap", "swap\swap.vcxproj", "{4FA51861-3416-4E6D-9C1A-3783C032832A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "swap_easy", "swap\swap.vcxproj", "{4FA51861-3416-4E6D-9C1A-3783C032832A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "arithmetic_progression", "arithmetic_progression\arithmetic_progression.vcxproj", "{2D47594B-3E69-492A-AB24-3458BA8D4A75}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "arithmetic_progression_easy", "arithmetic_progression\arithmetic_progression.vcxproj", "{2D47594B-3E69-492A-AB24-3458BA8D4A75}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "reverse_collection", "reverse_collection\reverse_collection.vcxproj", "{8F4CDCAA-9854-4ACA-9315-93DB6B577E4F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "reverse_collection_easy", "reverse_collection\reverse_collection.vcxproj", "{8F4CDCAA-9854-4ACA-9315-93DB6B577E4F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "linear_search", "linear_search\linear_search.vcxproj", "{EFD6A52D-ED1D-40AC-9293-41C7587F8109}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "linear_search_easy", "linear_search\linear_search.vcxproj", "{EFD6A52D-ED1D-40AC-9293-41C7587F8109}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nth_bit_of_a_number", "nth_bit_of_a_number\nth_bit_of_a_number.vcxproj", "{719D61AE-3401-4F61-AB1C-28BB9E2F93C1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nth_bit_of_a_number_easy", "nth_bit_of_a_number\nth_bit_of_a_number.vcxproj", "{719D61AE-3401-4F61-AB1C-28BB9E2F93C1}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "swap_bitwise", "swap_bitwise\swap_bitwise.vcxproj", "{B035634A-FAFA-442A-B7C7-44B2611E0AF8}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "swap_bitwise_easy", "swap_bitwise\swap_bitwise.vcxproj", "{B035634A-FAFA-442A-B7C7-44B2611E0AF8}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "min_max_sum_avg", "min_max_sum_avg\min_max_sum_avg.vcxproj", "{D6118F33-06F0-4BD1-90CD-AEA40F4E0467}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vector", "vector\vector.vcxproj", "{9B64BA6C-BE37-43D3-9053-681E6D44D01B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "custom_vector_class_hard", "vector\vector.vcxproj", "{9B64BA6C-BE37-43D3-9053-681E6D44D01B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,14 +103,6 @@ Global
 		{B035634A-FAFA-442A-B7C7-44B2611E0AF8}.Release|x64.Build.0 = Release|x64
 		{B035634A-FAFA-442A-B7C7-44B2611E0AF8}.Release|x86.ActiveCfg = Release|Win32
 		{B035634A-FAFA-442A-B7C7-44B2611E0AF8}.Release|x86.Build.0 = Release|Win32
-		{D6118F33-06F0-4BD1-90CD-AEA40F4E0467}.Debug|x64.ActiveCfg = Debug|x64
-		{D6118F33-06F0-4BD1-90CD-AEA40F4E0467}.Debug|x64.Build.0 = Debug|x64
-		{D6118F33-06F0-4BD1-90CD-AEA40F4E0467}.Debug|x86.ActiveCfg = Debug|Win32
-		{D6118F33-06F0-4BD1-90CD-AEA40F4E0467}.Debug|x86.Build.0 = Debug|Win32
-		{D6118F33-06F0-4BD1-90CD-AEA40F4E0467}.Release|x64.ActiveCfg = Release|x64
-		{D6118F33-06F0-4BD1-90CD-AEA40F4E0467}.Release|x64.Build.0 = Release|x64
-		{D6118F33-06F0-4BD1-90CD-AEA40F4E0467}.Release|x86.ActiveCfg = Release|Win32
-		{D6118F33-06F0-4BD1-90CD-AEA40F4E0467}.Release|x86.Build.0 = Release|Win32
 		{9B64BA6C-BE37-43D3-9053-681E6D44D01B}.Debug|x64.ActiveCfg = Debug|x64
 		{9B64BA6C-BE37-43D3-9053-681E6D44D01B}.Debug|x64.Build.0 = Debug|x64
 		{9B64BA6C-BE37-43D3-9053-681E6D44D01B}.Debug|x86.ActiveCfg = Debug|Win32

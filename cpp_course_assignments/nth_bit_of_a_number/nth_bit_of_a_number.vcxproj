@@ -24,6 +24,7 @@
     <ProjectGuid>{719d61ae-3401-4f61-ab1c-28bb9e2f93c1}</ProjectGuid>
     <RootNamespace>nthbitofanumber</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>nth_bit_of_a_number_easy</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

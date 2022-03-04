@@ -1,6 +1,5 @@
 #include <iostream>
 #include "ass8.h"
-#include <string>
 
 std::string hello{ "Hello" };
 
@@ -30,8 +29,6 @@ int get_length(std::string arr)
 
 	return n;
 }
-
-
 
 int main()
 {

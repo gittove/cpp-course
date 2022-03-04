@@ -24,6 +24,7 @@
     <ProjectGuid>{293dd512-0651-4d82-8410-8d6e40de8a99}</ProjectGuid>
     <RootNamespace>celsiustofahrenheit</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>celsius_to_fahrenheit_easy</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

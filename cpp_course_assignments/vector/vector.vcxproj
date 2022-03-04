@@ -24,6 +24,7 @@
     <ProjectGuid>{9b64ba6c-be37-43d3-9053-681e6d44d01b}</ProjectGuid>
     <RootNamespace>vector</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>custom_vector_class_hard</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
